@@ -1,0 +1,13 @@
+#root{
+  padding:0 15vw ;
+  height: 100vh;
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 20%, rgba(148,195,233,1) 100%);
+}
+.Desc-input{
+  text-align: left;
+padding:  0.4em;
+padding-bottom:190px;
+width: 400px;
+height: 10px;
+}
