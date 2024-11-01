@@ -12,7 +12,7 @@ const TodoTask = ({textTasks,handleDlt}) => {
         textTasks?.map((textTask,i)=>{
             if(textTask.Words)
             return<>
-        <div key={i} className=' flex justify-between items-center h-30 w-full overflow-hidden bg-slate-600 py-7 px-5 rounded-md my-3' style={{color:"red"}}>
+        <div key={i} className=' flex justify-between items-center h-30 w-full overflow-hidden bg-slate-600 py-7 px-5 rounded-md my-3 text-white' >
         <div className='content'>{textTask.Words}</div>    
         <div className='flex '>
            <span>
